@@ -1,0 +1,14 @@
+func main() -> int
+  # create list
+  list my_list = [1, 2, 3, 4]
+
+  int value = my_list[1]:int
+  println "%d", value
+
+  # iterate over list
+  for i:int in my_list
+    println "%d", i
+  end
+
+  return 0
+end

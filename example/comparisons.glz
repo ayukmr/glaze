@@ -1,0 +1,13 @@
+func main() -> int
+  for number:int in 0..5
+    if number < 3
+      # less than 3
+      println "%d < 3", number
+    else
+      # more than 2
+      println "%d > 2", number
+    end
+  end
+
+  return 0
+end

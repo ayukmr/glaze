@@ -1,0 +1,11 @@
+func main() -> int
+  int number = 5
+
+  # do operations
+  println "%d + 2 = %d", number, number + 2
+  println "%d - 2 = %d", number, number - 2
+  println "%d * 2 = %d", number, number * 2
+  println "%d / 2 = %d", number, number / 2
+
+  return 0
+end
